@@ -31,7 +31,7 @@ if len(ay)== 4:
         print("Your age will be ",yy-i)
 
 else:
-    print("Years after you will turn 100 after:",100-i)
+    print("You will turn 100 years old in year ",100+year-i)
     print("Do you want to know your age in any particular year if not enter -1 otherwise enter the year")
     yy = int(input())
     if yy != -1:
