@@ -16,6 +16,9 @@ engine.setProperty('voice', voices[1].id)
 
 
 def speak(audio):
+    '''
+    to speak the given audio
+    '''
     engine.say(audio)
     engine.runAndWait()
 
@@ -57,6 +60,7 @@ def takeCommand():
     return query
 
 def sendEmail(to, content):
+    ''' to send email '''
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
     server.starttls()
