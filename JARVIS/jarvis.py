@@ -27,9 +27,8 @@ def wishMe():
     Tells the time of day and wishs also    
     '''
     hour = int(datetime.datetime.now().hour)
-    if hour>=0 and hour <12:#morning
+    if hour>=0 and hour<12:#morning
         speak("Good Morning...")
-        speak(hour)
     elif hour>=12 and hour<18:
         speak("Good afternoon... ")
     else:
